@@ -1,5 +1,4 @@
 import { dateBirthValidation } from '../utils/validation.js';
-import { Product } from './Product.js';
 
 export class Person {
     id = Math.floor(Date.now() * Math.random()).toString(36)

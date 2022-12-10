@@ -1,5 +1,4 @@
 import { News } from "../models/News.js"
-import { Information } from "../models/Information.js";
 
 describe("News", () => {
     describe("Test the existence of the parameters of the class News ", () => {

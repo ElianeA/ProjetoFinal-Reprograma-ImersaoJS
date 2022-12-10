@@ -32,6 +32,3 @@ export class Event {
 
 
 }
-
-//const event = new Event("Campanha do agasalho", "Paróquia Rainha da Paz")
-//console.log(event)

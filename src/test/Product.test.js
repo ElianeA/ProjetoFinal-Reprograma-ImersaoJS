@@ -1,6 +1,4 @@
 import { Product } from "../models/Product.js"
-import { EventInformation } from "../models/EventInformation.js";
-import { Information } from "../models/Information.js";
 
 describe("Product", () => {
     describe("Test the existence of the parameters of the class Product ", () => {
@@ -39,16 +37,6 @@ describe("Product", () => {
             const result = product.pointsProduct;
             expect(result).toEqual(50);
         });
-
-/*        it ("should be success if the informations parameter exists", () => {
-            const product =  new Product("Campanha do agasalho", "Paróquia Rainha da Paz")
-            const information = new Information("22/02/2023", "10:00hs", "Avenida Freibenjamin", "Feira de arrecardação de roupas usadas para a campanha do agasalho")
-            product.addInformation(information)
-            const eventInformation = new EventInformation(event, information)
-            const result = eventInformation
-
-            expect(result).toEqual(eventInformation);
-        }); */       
     });
 })
 

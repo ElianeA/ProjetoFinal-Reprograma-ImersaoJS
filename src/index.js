@@ -38,3 +38,7 @@ const event = new Event("Campanha do agasalho", "Paróquia Rainha da Paz")
 account1.addEvent(event)
 
 console.log(Account)
+
+console.log(Product.productList)
+console.log(News.newsList)
+console.log(Event.eventList)

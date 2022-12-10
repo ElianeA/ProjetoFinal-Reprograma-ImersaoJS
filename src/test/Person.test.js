@@ -29,14 +29,7 @@ describe("Person", () => {
             const result = person.birthDate
             expect(result).toEqual("25/05/1980");
         });
-        /** verificar como ficará
-        it ("should success if the products parameter exists", () => {
-            const products =  new Person()
-            person.products = "Calça"
-            const result = person.products
-            expect(result).toEqual("Calça");
-        });
-        */
+
     });
 
     describe("Create Person ", () => {
